@@ -6,7 +6,7 @@ stages{
   stage('checkout'){
     steps{
     
-    git url: 'https://github.com/krishna538/deployArtifact.git
+    git url: 'https://github.com/kirankumar297/terraform1.git'
     
     }
   
