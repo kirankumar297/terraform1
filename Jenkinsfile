@@ -13,13 +13,13 @@ stages{
   }
   stage('Terraform init') {
       steps {
-        bat "terraform init"
+        sh "terraform init"
       }
     }
     
     stage('Terraform apply') {
       steps {
-        bat "terraform apply -auto-approve"
+        sh "terraform apply -auto-approve"
       }
     }
 
