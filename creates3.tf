@@ -10,7 +10,7 @@ assume_role {
 }
 
 resource "aws_s3_bucket" "b" {
-  bucket = "my-tf-test2-bucket"
+  bucket = "my-tf-test34-bucket"
   acl    = "private"
 
   tags = {
